@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "";
+}
+@model Nop.Plugin.Payments.VodafoneCash.Models.PaymentInfoModel
+
+<div class="title">
+    <strong>@T("Payment.SelectVodafoneCashPaymentType")</strong>
+</div>
+<table width="100%" cellspacing="2" cellpadding="1" border="0">
+    <tr>
+        <td>
+           Your Wallet Phone Number <input asp-for="VodafoneCashPaymentNumber" type="text" name="VodafoneCashPaymentNumber" />
+        </td>
+    </tr>
+</table>
